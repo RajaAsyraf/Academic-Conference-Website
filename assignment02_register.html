@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>Academic Conference</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<p><div class="header"><h1>2nd International Conference on Mathematical Sciences and Statistics (ICMSS2016)</h1>
+		</div></p>
+		
+		<img id="imagefci" src="images/Header.png" alt="header foto" >
+		
+		<div class="navi">
+		
+			<p>
+				<div id="whitebar"></div>
+				<h2>Links</h2>
+				<div id="whitebar"></div>
+			</p>
+	
+			<p><ul>
+					<li><a href="assignment02_about.html"> About & Objectives </a></li>
+					<li><a href="assignment02_information.html"> Information & Workshop Materials  </a></li>
+					<li><a href="assignment02_register.html"> Register </a></li>
+					<li><a href="assignment02_viewpart.html"> View Current Participants</a></li>
+				</ul>
+			</p>	  
+		</div>
+		
+		<div class="content">
+			
+			<p>
+				<div id="whitebar"></div>
+				<h2>Register</h2>
+				<div id="whitebar"></div>
+				<form action="in2.php" method="post">
+					<section>
+						<h2>Contact information</h2>
+						<p>
+							<label>
+								<span> Firstname	: 	</span><input type="text" name="firstname" required=""> 
+							</label>
+						</p>
+						<p>
+							<label>
+								<span>Lastname	: 	</span><input type="text" name="lastname" required="">
+							</label>		
+						</p>
+						<p>
+							<label>
+								<span>Identity Card : </span> <input type="text" name="identitycard" required="">
+								
+							</label>
+						</p>
+
+						<p> 
+							<label>
+								<span> Tel  </span>  : <input type="tel" name ="tel" pattern="\d{2}-\d{8}" placeholder="03-12345678" required=""> ##-####### 
+							</label>
+						</p>
+						<p>
+							<label>
+								<span> Email </span>: <input type="email" name ="email" placeholder="name@domain.com" required=""> (name@domain.com) </label> </p>
+							
+						<p></p>
+					</section>
+					<section>
+						<h2>Affilation </h2>
+						<p>
+							<label>
+								<span> University : </span> <input type="text" name="uni" placeholder="University of Example" required=""> 
+							</label>
+						</p>
+						<p>
+							<label>
+								<span> Department: </span> <input type="text" name="dept" required="">
+							</label>
+						</p>
+						
+						<br><input type="submit">
+					</section>
+				</form>
+			</p>
+		
+		</div>
+		
+	</div>
+	<div id="footer">
+	<p>Group member: Raja Mohamad Asyraf (1112703432) -- Adri Aiman (1112703527) -- Nur Nadzirah Binti Jaafar (1112703467) -- Nurul Nadzirah Bt Zaid (1121118796)
+	</p>
+	</div>
+</body>
+</html>
